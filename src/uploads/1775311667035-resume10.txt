@@ -1,0 +1,35 @@
+Name: Pooja Sharma
+Email: pooja.s@email.com
+Phone: 9632145870
+Location: Jaipur, Rajasthan
+
+OBJECTIVE:
+Java Developer with 3 years experience looking to transition to Python development.
+
+EDUCATION:
+B.Tech Computer Science - RTU, Jaipur (2021)
+CGPA: 7.6/10
+
+EXPERIENCE:
+Java Developer - Infosys, Jaipur (2021-2024) - 3 Years
+- Developed Java Spring Boot applications
+- REST API development in Java
+- Oracle and MySQL databases
+- Selenium test automation
+
+SKILLS:
+Java, Spring Boot, Hibernate, Oracle, MySQL, Selenium,
+Python (basic - learning), HTML, CSS, Git
+
+PROJECTS:
+1. HR Management System - Java Spring Boot
+2. Test Automation Framework - Selenium + Java
+3. Inventory System - Java + MySQL
+
+CERTIFICATIONS:
+- Java SE 11 - Oracle Certified
+- Selenium Testing - Udemy
+
+LANGUAGES: Hindi, English
+
+NOTE: Currently learning Python and Flask through online courses.

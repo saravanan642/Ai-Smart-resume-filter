@@ -1,0 +1,32 @@
+Name: Divya Ramachandran
+Email: divya.r@email.com
+Phone: 9632587410
+Location: Coimbatore, Tamil Nadu
+
+OBJECTIVE:
+Aspiring Python Developer with 2 years experience seeking to grow in backend development.
+
+EDUCATION:
+B.E Computer Science - PSG College of Technology, Coimbatore (2022)
+CGPA: 7.8/10
+
+EXPERIENCE:
+Junior Python Developer - StartupHub, Coimbatore (2022-2024) - 2 Years
+- Developed basic Flask web applications
+- Created simple REST APIs
+- Worked with MySQL database
+- Bug fixing and code maintenance
+- Used Git for version control
+
+SKILLS:
+Python, Flask, MySQL, REST API, Git, HTML, CSS, Bootstrap
+
+PROJECTS:
+1. Library Management System - Flask + MySQL
+2. Simple Blog API - Python + Flask
+3. Contact Book App - Python + SQLite
+
+CERTIFICATIONS:
+- Python for Beginners - Udemy
+
+LANGUAGES: Tamil, English

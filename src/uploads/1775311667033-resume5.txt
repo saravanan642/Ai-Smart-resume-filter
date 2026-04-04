@@ -1,0 +1,31 @@
+Name: Rahul Pandey
+Email: rahul.p@email.com
+Phone: 9521478630
+Location: Mumbai, Maharashtra
+
+OBJECTIVE:
+Python Developer fresher eager to learn and contribute to real-world projects.
+
+EDUCATION:
+B.Tech Computer Science - Mumbai University (2024)
+CGPA: 7.5/10
+
+EXPERIENCE:
+Internship - WebTech Solutions, Mumbai (2023) - 6 Months
+- Assisted in building Flask web pages
+- Wrote basic Python scripts
+- Helped with MySQL database queries
+- Learned REST API basics
+
+SKILLS:
+Python, Flask, MySQL, HTML, CSS, Git (basic)
+
+PROJECTS:
+1. Student Grade Calculator - Python
+2. Simple Login System - Flask + MySQL
+3. Calculator App - Python Tkinter
+
+CERTIFICATIONS:
+- Python Basics - SoloLearn
+
+LANGUAGES: Hindi, English
