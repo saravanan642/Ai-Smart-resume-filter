@@ -1,0 +1,34 @@
+Name: Sneha Iyer
+Email: sneha.i@email.com
+Phone: 9874563210
+Location: Pune, Maharashtra
+
+OBJECTIVE:
+Full Stack Python Developer with 3 years experience in web and API development.
+
+EDUCATION:
+MCA - Pune University (2021)
+CGPA: 8.3/10
+
+EXPERIENCE:
+Python Full Stack Developer - Persistent Systems, Pune (2021-2024) - 3 Years
+- Developed web applications using Django and React
+- Built and maintained REST APIs
+- Worked with PostgreSQL and Redis
+- Implemented JWT authentication
+- Used AWS S3 for file storage
+
+SKILLS:
+Python, Django, Flask, React, REST API, PostgreSQL, Redis,
+JWT, AWS S3, Docker, Git, HTML, CSS, JavaScript
+
+PROJECTS:
+1. E-learning Platform - Django + React
+2. Chat Application - Flask + WebSocket
+3. File Storage API - Flask + AWS S3
+
+CERTIFICATIONS:
+- Full Stack Web Development - Udemy
+- AWS Cloud Practitioner
+
+LANGUAGES: Marathi, Hindi, English

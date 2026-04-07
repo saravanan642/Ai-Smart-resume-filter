@@ -1,0 +1,34 @@
+Name: Karthik Subramaniam
+Email: karthik.s@email.com
+Phone: 9745321089
+Location: Hyderabad, Telangana
+
+OBJECTIVE:
+Python Backend Developer with 3 years experience looking for growth opportunities.
+
+EDUCATION:
+B.Tech Information Technology - JNTU, Hyderabad (2021)
+CGPA: 8.1/10
+
+EXPERIENCE:
+Python Developer - Wipro Technologies, Hyderabad (2021-2024) - 3 Years
+- Built microservices using Flask and FastAPI
+- Worked on REST API development and testing
+- Used SQLite and MySQL for database management
+- Basic machine learning model integration
+- Code reviews and Git version control
+
+SKILLS:
+Python, Flask, FastAPI, REST API, MySQL, SQLite, Git,
+HTML, CSS, Bootstrap, basic ML, pandas, Linux
+
+PROJECTS:
+1. Inventory Management API - Flask + SQLite
+2. Weather App - Python + OpenWeather API
+3. Todo App - FastAPI + MySQL
+
+CERTIFICATIONS:
+- Python Basics - Coursera
+- REST API Development - Udemy
+
+LANGUAGES: Telugu, English

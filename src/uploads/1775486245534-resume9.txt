@@ -1,0 +1,35 @@
+Name: Vikram Nair
+Email: vikram.n@email.com
+Phone: 9856321470
+Location: Kochi, Kerala
+
+OBJECTIVE:
+Experienced Python & ML Engineer with 4 years in data science and backend development.
+
+EDUCATION:
+M.Tech Computer Science - NIT Calicut (2020)
+CGPA: 8.7/10
+
+EXPERIENCE:
+ML Engineer - Analytics India, Kochi (2020-2024) - 4 Years
+- Built machine learning pipelines using scikit-learn and TensorFlow
+- Developed Flask APIs for ML model deployment
+- Worked with large datasets using pandas and numpy
+- Used PostgreSQL for data storage
+- Deployed models on AWS SageMaker
+
+SKILLS:
+Python, Machine Learning, TensorFlow, scikit-learn, Flask, FastAPI,
+PostgreSQL, pandas, numpy, AWS SageMaker, Docker, Git, Linux
+
+PROJECTS:
+1. Customer Churn Prediction - ML + Flask API
+2. Image Classification - TensorFlow + CNN
+3. NLP Sentiment Analysis - Python + BERT
+
+CERTIFICATIONS:
+- Machine Learning Specialization - Coursera (Andrew Ng)
+- TensorFlow Developer Certificate - Google
+- AWS SageMaker
+
+LANGUAGES: Malayalam, English

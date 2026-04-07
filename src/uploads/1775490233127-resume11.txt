@@ -1,0 +1,28 @@
+Name: Suresh Babu
+Email: suresh.b@email.com
+Phone: 9874123650
+Location: Chennai, Tamil Nadu
+
+OBJECTIVE:
+Graphic Designer with some programming knowledge seeking developer role.
+
+EDUCATION:
+B.Sc Visual Communication - Loyola College, Chennai (2022)
+CGPA: 7.0/10
+
+EXPERIENCE:
+Graphic Designer - Creative Studio, Chennai (2022-2024) - 2 Years
+- Designed logos, banners, social media posts
+- Used Photoshop and Illustrator
+- Basic HTML/CSS for email templates
+- WordPress website maintenance
+
+SKILLS:
+Photoshop, Illustrator, HTML, CSS, WordPress, basic Python (self-taught)
+
+PROJECTS:
+1. Brand Identity Design - Logo + Style Guide
+2. Company Website - WordPress
+3. Python Calculator - basic script
+
+LANGUAGES: Tamil, English

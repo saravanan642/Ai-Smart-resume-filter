@@ -1,0 +1,24 @@
+Name: Arun Prakash
+Email: arun.p@email.com
+Phone: 9638527410
+Location: Salem, Tamil Nadu
+
+OBJECTIVE:
+BCA fresher with basic programming knowledge seeking entry level IT position.
+
+EDUCATION:
+BCA - Periyar University, Salem (2024)
+CGPA: 6.5/10
+
+EXPERIENCE:
+No experience. Recently graduated.
+
+College Mini Project:
+- Basic Library System using Python and MySQL
+
+SKILLS:
+Python (beginner), MySQL (basic), HTML, CSS, C, C++
+
+LANGUAGES: Tamil, English
+
+HOBBIES: Cricket, Gaming

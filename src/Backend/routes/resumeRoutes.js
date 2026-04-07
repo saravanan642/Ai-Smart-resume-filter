@@ -9,4 +9,4 @@ router.post("/upload", upload.array("resumes", 100), uploadResumes);
 // Get results by job ID
 router.get("/results/:jobId", getResults);
 
-module.exports = router;
+module.exports = router

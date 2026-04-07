@@ -1,8 +1,10 @@
-const API_URL = "http://localhost:5000/api";
+// ✅ Correct Base URL
+const API_URL = "http://localhost:5000/api/resume";
 
-// Upload resumes and get results
+// 🔥 Upload resumes
 export async function uploadResumes(jobTitle, jobDescription, files) {
   const formData = new FormData();
+
   formData.append("jobTitle", jobTitle);
   formData.append("jobDescription", jobDescription);
 
@@ -10,18 +12,68 @@ export async function uploadResumes(jobTitle, jobDescription, files) {
     formData.append("resumes", files[i]);
   }
 
-  const response = await fetch(`${API_URL}/upload`, {
-    method: "POST",
-    body: formData,
-  });
+  try {
+    const response = await fetch(`${API_URL}/upload`, {
+      method: "POST",
+      body: formData,
+    });
 
-  const data = await response.json();
-  return data;
+    // ✅ SAFE ERROR HANDLING
+    if (!response.ok) {
+      let errorMessage = "Server error";
+
+      try {
+        const errorData = await response.json();
+        errorMessage = errorData.error || errorMessage;
+      } catch {
+        errorMessage = "Invalid server response";
+      }
+
+      throw new Error(errorMessage);
+    }
+
+    const data = await response.json();
+    return data;
+
+  } catch (error) {
+    console.error("API ERROR:", error.message);
+
+    throw {
+      response: {
+        data: { error: error.message }
+      }
+    };
+  }
 }
 
-// Get results by job ID
+// 🔥 Get results
 export async function getResults(jobId) {
-  const response = await fetch(`${API_URL}/results/${jobId}`);
-  const data = await response.json();
-  return data;
+  try {
+    const response = await fetch(`${API_URL}/results/${jobId}`);
+
+    if (!response.ok) {
+      let errorMessage = "Failed to fetch results";
+
+      try {
+        const errorData = await response.json();
+        errorMessage = errorData.error || errorMessage;
+      } catch {
+        errorMessage = "Invalid server response";
+      }
+
+      throw new Error(errorMessage);
+    }
+
+    const data = await response.json();
+    return data;
+
+  } catch (error) {
+    console.error("Fetch Results Error:", error.message);
+
+    throw {
+      response: {
+        data: { error: error.message }
+      }
+    };
+  }
 }

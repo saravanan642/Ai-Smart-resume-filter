@@ -1,0 +1,34 @@
+Name: Priya Venkatesh
+Email: priya.v@email.com
+Phone: 9865432100
+Location: Bangalore, Karnataka
+
+OBJECTIVE:
+Python Developer with 4 years experience in web development and API design.
+
+EDUCATION:
+B.E Computer Science - VTU, Bangalore (2020)
+CGPA: 8.5/10
+
+EXPERIENCE:
+Python Developer - Infosys, Bangalore (2020-2024) - 4 Years
+- Developed RESTful APIs using Flask for mobile and web clients
+- Worked with MySQL and PostgreSQL databases
+- Integrated third-party APIs like Razorpay, Twilio
+- Used Docker for containerization
+- Collaborated using Git and Jira
+
+SKILLS:
+Python, Flask, Django, REST API, MySQL, PostgreSQL, Docker, Git,
+HTML, CSS, JavaScript, Bootstrap, pandas, numpy, Linux
+
+PROJECTS:
+1. Hospital Management System - Django + MySQL
+2. Payment Gateway Integration - Flask + Razorpay
+3. Student Portal - Python + Bootstrap
+
+CERTIFICATIONS:
+- Django Web Development - Udemy
+- SQL Advanced - HackerRank
+
+LANGUAGES: Kannada, Tamil, English

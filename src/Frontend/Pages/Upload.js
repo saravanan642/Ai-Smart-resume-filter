@@ -16,27 +16,40 @@ function UploadPage({ onResults }) {
 
   const handleSubmit = async () => {
     if (!jobDescription.trim()) {
-      setError("Job Description கொடுங்க!");
+      setError("Please enter the job description");
       return;
     }
+
     if (files.length === 0) {
-      setError("குறைந்தது ஒரு resume upload பண்ணுங்க!");
+      setError("Please upload at least one resume");
       return;
     }
 
     setLoading(true);
     setError("");
-    setProgress(`${files.length} resumes analyze பண்றோம்... கொஞ்சம் wait பண்ணுங்க`);
+    setProgress(`${files.length} resumes are being analyzed... please wait`);
 
     try {
       const result = await uploadResumes(jobTitle, jobDescription, files);
-      if (result.success) {
+
+      console.log("API Response:", result); // 🔥 debug
+
+      if (result && result.success) {
+        setError(""); // clear error
         onResults(result.results);
       } else {
-        setError(result.error || "Something went wrong!");
+        setError(result?.error || "Something went wrong!");
       }
+
     } catch (err) {
-      setError("Server connect ஆகல! Backend run பண்றீங்களா?");
+      console.error("Full Error:", err);
+
+      // 🔥 FIXED ERROR HANDLING
+      if (err.response) {
+        setError(err.response.data?.error || "Server error occurred");
+      } else {
+        setError("Backend not reachable. Check server.");
+      }
     } finally {
       setLoading(false);
       setProgress("");
@@ -49,7 +62,7 @@ function UploadPage({ onResults }) {
       <div style={styles.header}>
         <h1 style={styles.title}>🤖 AI Resume Screener</h1>
         <p style={styles.subtitle}>
-          Resumes upload பண்ணுங்க — AI automatically rank பண்ணும்!
+          Upload resumes - AI will automatically rank them!
         </p>
       </div>
 
@@ -69,7 +82,7 @@ function UploadPage({ onResults }) {
         <label style={styles.label}>📋 Job Description *</label>
         <textarea
           style={styles.textarea}
-          placeholder="Job description paste பண்ணுங்க...&#10;&#10;Example:&#10;We are looking for a Python Developer with 3+ years experience.&#10;Required: Python, Flask, REST API, MySQL&#10;Good to have: Machine Learning, Docker, AWS"
+          placeholder="Paste the job description here..."
           value={jobDescription}
           onChange={(e) => setJobDescription(e.target.value)}
         />
@@ -78,7 +91,7 @@ function UploadPage({ onResults }) {
 
       {/* File Upload */}
       <div style={styles.card}>
-        <label style={styles.label}>📄 Resumes Upload பண்ணுங்க *</label>
+        <label style={styles.label}>📄 Resumes Upload*</label>
         <input
           type="file"
           multiple
@@ -86,6 +99,7 @@ function UploadPage({ onResults }) {
           onChange={handleFiles}
           style={styles.fileInput}
         />
+
         {files.length > 0 && (
           <div style={styles.fileList}>
             <p style={styles.fileCount}>✅ {files.length} files selected:</p>
@@ -134,11 +148,9 @@ const styles = {
   title: {
     fontSize: "28px",
     color: "#1a1a2e",
-    marginBottom: "8px",
   },
   subtitle: {
     color: "#666",
-    fontSize: "15px",
   },
   card: {
     background: "#fff",
@@ -146,94 +158,57 @@ const styles = {
     borderRadius: "10px",
     padding: "20px",
     marginBottom: "20px",
-    boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
   },
   label: {
-    display: "block",
     fontWeight: "bold",
     marginBottom: "10px",
-    color: "#333",
-    fontSize: "14px",
+    display: "block",
   },
   input: {
     width: "100%",
-    padding: "10px 14px",
-    border: "1px solid #ddd",
-    borderRadius: "6px",
-    fontSize: "14px",
-    outline: "none",
-    boxSizing: "border-box",
+    padding: "10px",
   },
   textarea: {
     width: "100%",
-    minHeight: "150px",
-    padding: "10px 14px",
-    border: "1px solid #ddd",
-    borderRadius: "6px",
-    fontSize: "14px",
-    outline: "none",
-    resize: "vertical",
-    boxSizing: "border-box",
-    lineHeight: "1.6",
+    minHeight: "120px",
+    padding: "10px",
   },
   hint: {
-    textAlign: "right",
-    color: "#999",
     fontSize: "12px",
-    marginTop: "5px",
+    textAlign: "right",
   },
   fileInput: {
     width: "100%",
     padding: "10px",
-    border: "2px dashed #ccc",
-    borderRadius: "6px",
-    cursor: "pointer",
-    boxSizing: "border-box",
   },
   fileList: {
-    marginTop: "12px",
+    marginTop: "10px",
   },
   fileCount: {
-    color: "#27ae60",
+    color: "green",
     fontWeight: "bold",
-    marginBottom: "8px",
   },
   fileItem: {
-    padding: "6px 10px",
-    background: "#f8f9fa",
-    borderRadius: "4px",
-    marginBottom: "4px",
     fontSize: "13px",
-    color: "#555",
   },
   error: {
-    background: "#fff5f5",
-    border: "1px solid #ffcccc",
-    color: "#e74c3c",
-    padding: "12px",
-    borderRadius: "6px",
-    marginBottom: "16px",
-    fontSize: "14px",
+    background: "#ffe6e6",
+    padding: "10px",
+    color: "red",
   },
   progress: {
-    background: "#f0f8ff",
-    border: "1px solid #b3d9ff",
-    color: "#2980b9",
-    padding: "12px",
-    borderRadius: "6px",
-    marginBottom: "16px",
-    fontSize: "14px",
+    background: "#e6f2ff",
+    padding: "10px",
+    color: "blue",
   },
   button: {
     width: "100%",
     padding: "14px",
-    background: "linear-gradient(135deg, #667eea, #764ba2)",
+    background: "#667eea",
     color: "#fff",
     border: "none",
-    borderRadius: "8px",
+    borderRadius: "6px",
     fontSize: "16px",
-    fontWeight: "bold",
-    cursor: "pointer",
   },
 };
 

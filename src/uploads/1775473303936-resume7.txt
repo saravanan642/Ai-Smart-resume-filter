@@ -1,0 +1,28 @@
+Name: Manoj Kumar
+Email: manoj.k@email.com
+Phone: 9658741230
+Location: Delhi, NCR
+
+OBJECTIVE:
+Python Developer with 2 years experience in scripting and automation.
+
+EDUCATION:
+B.Sc Computer Science - Delhi University (2022)
+CGPA: 6.9/10
+
+EXPERIENCE:
+Junior Developer - DataSoft, Delhi (2022-2024) - 2 Years
+- Wrote Python automation scripts
+- Basic Flask application development
+- MySQL database queries
+- Manual testing support
+
+SKILLS:
+Python, Flask, MySQL, HTML, basic Git, Excel automation
+
+PROJECTS:
+1. Excel Data Automation - Python + openpyxl
+2. Web Scraper - Python + BeautifulSoup
+3. Simple Flask Blog - Python + Flask
+
+LANGUAGES: Hindi, English

@@ -19,55 +19,33 @@ function Home({ onStart }) {
         </button>
       </div>
 
-      {/* Features */}
+      {/* Features — Click பண்ணா Upload page போகும் */}
       <div style={styles.featuresRow}>
-        <div style={styles.featureCard}>
+        <div style={{ ...styles.featureCard, cursor: "pointer" }} onClick={onStart}>
           <div style={styles.featureIcon}>📄</div>
           <h3 style={styles.featureTitle}>PDF Upload</h3>
           <p style={styles.featureText}>
             Multiple resumes upload பண்ணலாம். PDF & TXT supported.
           </p>
-         <button
-  onClick={onStart}
-  style={{
-    background: " black  ",
-    color: "white",
-    border: "none",
-    padding: "10px 14px",
-    fontSize: "16px",
-    fontWeight: "600",
-    borderRadius: "10px",
-    cursor: "pointer",
-    boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
-    transition: "all 0.3s ease"
-  }}
-  onMouseOver={(e) => {
-    e.target.style.transform = "translateY(-2px)";
-    e.target.style.boxShadow = "0 6px 18px rgba(0,0,0,0.25)";
-  }}
-  onMouseOut={(e) => {
-    e.target.style.transform = "translateY(0px)";
-    e.target.style.boxShadow = "0 4px 12px rgba(0,0,0,0.15)";
-  }}
->
-  🚀 clicl mee
-</button>
-           
-
+          <div style={styles.clickHint}>Click to Upload →</div>
         </div>
-        <div style={styles.featureCard}>
+
+        <div style={{ ...styles.featureCard, cursor: "pointer" }} onClick={onStart}>
           <div style={styles.featureIcon}>🤖</div>
           <h3 style={styles.featureTitle}>AI Analysis</h3>
           <p style={styles.featureText}>
-            Claude AI ஒவ்வொரு resume-யும் analyze பண்ணி score போடும்.
+            Google Gemini AI ஒவ்வொரு resume-யும் analyze பண்ணி score போடும்.
           </p>
+          <div style={styles.clickHint}>Click to Start →</div>
         </div>
-        <div style={styles.featureCard}>
+
+        <div style={{ ...styles.featureCard, cursor: "pointer" }} onClick={onStart}>
           <div style={styles.featureIcon}>🏆</div>
           <h3 style={styles.featureTitle}>Auto Ranking</h3>
           <p style={styles.featureText}>
             Skills, Experience, Education based-ஆ candidates rank ஆகும்.
           </p>
+          <div style={styles.clickHint}>Click to View →</div>
         </div>
       </div>
 
@@ -93,7 +71,7 @@ function Home({ onStart }) {
       <div style={styles.footer}>
         <p>AI-Based Smart Resume Screening System</p>
         <p style={{ color: "#999", fontSize: "12px" }}>
-          MCA Final Year Project • Powered by Claude AI
+          MCA Final Year Project • Powered by Google Gemini AI
         </p>
       </div>
     </div>
@@ -162,25 +140,33 @@ const styles = {
     minWidth: "200px",
     background: "#fff",
     borderRadius: "12px",
-    padding: "24px",
+    padding: "28px 20px",
     textAlign: "center",
     boxShadow: "0 2px 12px rgba(0,0,0,0.08)",
+    transition: "transform 0.2s, box-shadow 0.2s",
+    border: "2px solid transparent",
   },
   featureIcon: {
-    fontSize: "36px",
-    marginBottom: "12px",
+    fontSize: "40px",
+    marginBottom: "14px",
   },
   featureTitle: {
-    fontSize: "16px",
+    fontSize: "17px",
     fontWeight: "bold",
     color: "#1a1a2e",
-    marginBottom: "8px",
+    marginBottom: "10px",
   },
   featureText: {
     fontSize: "13px",
     color: "#666",
     lineHeight: "1.6",
-    margin: 0,
+    margin: "0 0 12px 0",
+  },
+  clickHint: {
+    fontSize: "12px",
+    color: "#667eea",
+    fontWeight: "bold",
+    marginTop: "8px",
   },
   stepsSection: {
     background: "#fff",

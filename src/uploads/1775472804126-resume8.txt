@@ -1,0 +1,29 @@
+Name: Anitha Selvam
+Email: anitha.s@email.com
+Phone: 9741258630
+Location: Madurai, Tamil Nadu
+
+OBJECTIVE:
+Recent MCA graduate looking for entry level Python Developer position.
+
+EDUCATION:
+MCA - Madurai Kamaraj University (2024)
+CGPA: 7.2/10
+
+EXPERIENCE:
+No full-time experience.
+
+Internship - LocalTech, Madurai (2023) - 3 Months
+- Learned Python basics
+- Built a simple Flask website
+- MySQL database basics
+
+SKILLS:
+Python (basic), Flask (basic), MySQL, HTML, CSS
+
+PROJECTS:
+1. College Canteen Management - Python + MySQL
+2. Personal Portfolio Website - HTML + CSS
+3. Attendance Tracker - Python
+
+LANGUAGES: Tamil, English

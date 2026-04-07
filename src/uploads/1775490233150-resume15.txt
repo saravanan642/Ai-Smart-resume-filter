@@ -1,0 +1,35 @@
+Name: Deepak Rajendran
+Email: deepak.r@email.com
+Phone: 9856412370
+Location: Vellore, Tamil Nadu
+
+OBJECTIVE:
+Python Developer with 3 years experience in backend and cloud development.
+
+EDUCATION:
+B.Tech IT - VIT University, Vellore (2021)
+CGPA: 8.4/10
+
+EXPERIENCE:
+Python Developer - Zoho Corporation, Chennai (2021-2024) - 3 Years
+- Backend development using Flask and Django
+- REST API design and documentation using Swagger
+- PostgreSQL database design and query optimization
+- Redis caching for performance improvement
+- AWS deployment and monitoring
+
+SKILLS:
+Python, Flask, Django, REST API, PostgreSQL, Redis,
+AWS, Docker, Git, Swagger, HTML, CSS, JavaScript, Linux
+
+PROJECTS:
+1. CRM Backend System - Django + PostgreSQL
+2. API Gateway Service - Flask + Redis
+3. Cloud File Manager - Python + AWS S3
+
+CERTIFICATIONS:
+- AWS Cloud Practitioner
+- Backend Web Development - Udemy
+- PostgreSQL Advanced - Udemy
+
+LANGUAGES: Tamil, English

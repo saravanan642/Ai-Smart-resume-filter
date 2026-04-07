@@ -1,0 +1,37 @@
+Name: Meena Sundarajan
+Email: meena.s@email.com
+Phone: 9741236580
+Location: Erode, Tamil Nadu
+
+OBJECTIVE:
+Python Developer with 5 years experience in enterprise application development.
+
+EDUCATION:
+M.Sc Computer Science - Bharathiar University, Coimbatore (2019)
+CGPA: 9.1/10
+
+EXPERIENCE:
+Senior Python Developer - HCL Technologies, Chennai (2019-2024) - 5 Years
+- Designed and developed microservices architecture using FastAPI
+- Built high-performance REST APIs handling 500K+ daily requests
+- Database design and optimization in PostgreSQL and MongoDB
+- CI/CD pipeline setup using Jenkins and GitHub Actions
+- Mentored junior developers and conducted code reviews
+- Agile/Scrum methodology
+
+SKILLS:
+Python, FastAPI, Flask, Django, REST API, GraphQL,
+PostgreSQL, MongoDB, Redis, Docker, Kubernetes,
+AWS (EC2, S3, Lambda, RDS), Git, Jenkins, Linux, pandas
+
+PROJECTS:
+1. Microservices E-commerce Platform - FastAPI + Docker + Kubernetes
+2. Real-time Analytics Dashboard - Python + Redis + WebSocket
+3. AI Chatbot Integration - Python + OpenAI API
+
+CERTIFICATIONS:
+- AWS Solutions Architect Associate
+- Docker Certified Associate
+- Python Expert - LinkedIn Learning
+
+LANGUAGES: Tamil, English

@@ -1,0 +1,35 @@
+Name: Arjun Krishnamurthy
+Email: arjun.k@email.com
+Phone: 9876543210
+Location: Chennai, Tamil Nadu
+
+OBJECTIVE:
+Experienced Python Developer seeking a challenging role to utilize my expertise in backend development and machine learning.
+
+EDUCATION:
+B.Tech Computer Science - Anna University, Chennai (2019)
+CGPA: 8.9/10
+
+EXPERIENCE:
+Senior Python Developer - TechCorp Solutions, Chennai (2019-2024) - 5 Years
+- Built REST APIs using Flask and FastAPI serving 1M+ requests/day
+- Developed ML models using scikit-learn and TensorFlow for data analysis
+- Managed PostgreSQL and MySQL databases with complex queries
+- Led a team of 4 junior developers
+- Deployed applications on AWS EC2 and S3
+
+SKILLS:
+Python, Flask, FastAPI, Django, Machine Learning, TensorFlow, scikit-learn,
+REST API, PostgreSQL, MySQL, SQLite, AWS, Docker, Git, Linux, pandas, numpy
+
+PROJECTS:
+1. AI Resume Screening System - Flask + Claude API
+2. Sales Prediction ML Model - scikit-learn + pandas
+3. E-commerce Backend API - Django REST Framework
+
+CERTIFICATIONS:
+- AWS Certified Developer
+- Python Professional Certificate - Coursera
+- Machine Learning - Stanford Online (Andrew Ng)
+
+LANGUAGES: Tamil, English

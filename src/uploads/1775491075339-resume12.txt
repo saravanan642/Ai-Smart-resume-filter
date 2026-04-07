@@ -1,0 +1,34 @@
+Name: Lakshmi Priya
+Email: lakshmi.p@email.com
+Phone: 9521364780
+Location: Trichy, Tamil Nadu
+
+OBJECTIVE:
+Data Analyst with Python skills looking to move into backend development.
+
+EDUCATION:
+B.Sc Statistics - Bharathidasan University, Trichy (2021)
+CGPA: 8.0/10
+
+EXPERIENCE:
+Data Analyst - Cognizant, Chennai (2021-2024) - 3 Years
+- Data analysis using Python pandas and numpy
+- Created dashboards in Power BI and Tableau
+- SQL queries for data extraction
+- Python scripts for data cleaning and automation
+
+SKILLS:
+Python, pandas, numpy, SQL, Power BI, Tableau,
+Excel, basic Flask, Git, data visualization
+
+PROJECTS:
+1. Sales Data Analysis Dashboard - Python + Power BI
+2. Customer Segmentation - Python + clustering
+3. Automated Report Generator - Python + pandas
+
+CERTIFICATIONS:
+- Data Analysis with Python - IBM (Coursera)
+- SQL for Data Science - Coursera
+- Power BI - Microsoft
+
+LANGUAGES: Tamil, English

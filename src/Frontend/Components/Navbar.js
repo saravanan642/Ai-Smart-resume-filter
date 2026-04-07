@@ -10,23 +10,37 @@ function Navbar({ currentPage, onNavigate }) {
 
       {/* Nav Links */}
       <div style={styles.links}>
+        {/* Home */}
         <span
           style={{
             ...styles.link,
-            color: currentPage === "home" ? "#00d4ff" : "rgba(255,255,255,0.7)",
+            color: currentPage === "home" ? "#00d4ff" : styles.inactive,
           }}
           onClick={() => onNavigate("home")}
         >
           🏠 Home
         </span>
+
+        {/* Upload */}
         <span
           style={{
             ...styles.link,
-            color: currentPage === "upload" ? "#00d4ff" : "rgba(255,255,255,0.7)",
+            color: currentPage === "upload" ? "#00d4ff" : styles.inactive,
           }}
           onClick={() => onNavigate("upload")}
         >
           📤 Screen Resumes
+        </span>
+
+        {/* NEW 👉 ABOUT PAGE */}
+        <span
+          style={{
+            ...styles.link,
+            color: currentPage === "about" ? "#00d4ff" : styles.inactive,
+          }}
+          onClick={() => onNavigate("about")}
+        >
+          📄 About
         </span>
       </div>
 
@@ -38,13 +52,15 @@ function Navbar({ currentPage, onNavigate }) {
 
 const styles = {
   navbar: {
-    background: "#1a1a2e",
+    background: "linear-gradient(90deg, #1a1a2e, #16213e)",
     padding: "14px 30px",
     display: "flex",
     alignItems: "center",
     gap: "24px",
     borderBottom: "1px solid rgba(255,255,255,0.1)",
+    flexWrap: "wrap", // ✅ mobile support
   },
+
   logo: {
     color: "#00d4ff",
     fontWeight: "800",
@@ -52,18 +68,22 @@ const styles = {
     cursor: "pointer",
     letterSpacing: "1px",
     marginRight: "auto",
-    fontFamily: "Arial, sans-serif",
   },
+
   links: {
     display: "flex",
     gap: "20px",
+    flexWrap: "wrap", // ✅ mobile responsive
   },
+
   link: {
     cursor: "pointer",
     fontSize: "14px",
-    fontFamily: "Arial, sans-serif",
-    transition: "color 0.2s",
+    transition: "all 0.3s ease",
   },
+
+  inactive: "rgba(255,255,255,0.6)",
+
   badge: {
     background: "rgba(0,212,255,0.1)",
     border: "1px solid rgba(0,212,255,0.3)",
@@ -71,7 +91,6 @@ const styles = {
     padding: "4px 12px",
     borderRadius: "12px",
     fontSize: "11px",
-    letterSpacing: "0.5px",
   },
 };
 
